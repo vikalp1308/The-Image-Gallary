@@ -1,0 +1,64 @@
+/* div button a span{
+	border: purple
+} */
+body{
+	background: url(https://images.unsplash.com/photo-1538935640135-844bd0bb1ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.btn-default{
+	/* background: rgb(188, 193, 212);	 */
+	background: rgb(240, 218, 232);
+	color:rgb(0,0,0);
+}
+
+
+.btn-outline-default {
+    color: #7cc;
+    background-color: transparent;
+    background-image: none;
+    border-color: #7cc
+}
+
+
+.btn-default:hover {
+    color: #212529;
+    background-color: #52bebe;
+    border-color: #8ad3d3
+}
+
+.txt{
+	text-shadow:blue;
+}
+
+.jumbo{
+	text-shadow: 0px 4px 3px red,
+	             0px 8px 13px orange;
+	background-color:rgb(188, 193, 212);
+}
+
+.bk{
+	text-shadow: 0px 4px 3px red,
+	             0px 8px 13px blue,
+				 0px 18px 23px orange;
+	
+}
+
+#ts{
+	text-shadow: 2px 4px 3px DodgerBlue,
+	             2px 8px 13px MediumSeaGreen,
+				 1px 18px 23px Tomato;
+}
+
+#martop{
+	margin-top:50px;
+}
+
+@media screen and (max-width: 768px) and (max-height: 1000px){
+	.setting{
+		width: 160%;
+	    margin : -65px 0px 20px -200px;
+	}	
+}	

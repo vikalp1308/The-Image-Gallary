@@ -1,0 +1,89 @@
+<%- include("partials/header") %>
+
+<!-- <script language="javascript" type="text/javascript">
+    function keypress(){
+    // var text = document.getElementById("input").value;
+	$("input").value;
+    window.location = text;
+    }
+</script> -->
+
+
+
+<div class="container">
+	<header class="jumbotron text-center">
+		<div class="container">
+			<h1 class="bk">The Image Gallary</h1>
+			<p><strong>Download Hd Images From Here of all over the World</strong></p>		
+		</div>
+	</header>
+	
+	<a href="/animal" class="btn btn-default">Animal</a>
+	<a href="/foodDrink" class="btn btn-default">Food & Drink</a>
+	<a href="/covid-19" class="btn btn-default">Covid-19</a>
+	<a href="/nature" class="btn btn-default">Nature</a>
+	<a href="/wallpapers" class="btn btn-default">Wallpapers</a>
+	<a href="/technology" class="btn btn-default">Technology</a>
+	<a href="/interiors" class="btn btn-default">Interiors</a>
+	<a href="/spirituality" class="btn btn-default">Spirituality</a>
+	<a href="/architecture" class="btn btn-default">Architecture</a>
+	<a href="/artsCulture"class="btn btn-default">Arts and Culture</a>	
+	<a href="/history"class="btn btn-default">History</a>		
+
+
+	<!-- <div class="container">
+		<div class="row">
+        	<div style="width: 60%; margin : 115px 40px 50px 200px;">
+            	<form>
+                	<div class="form-group-lg">
+                    	<input class="form-control" type="text" id="inputURL" name="inputURL" value="" placeholder="Search here">
+							function doKey(e) { 
+						 	if (event.keyCode == 13) { 
+							   var url = document.getElementById("inputURL").value;
+							  
+							  if (url == "") { 
+								 	return false;
+							  }else { 
+									 window.location = url; 
+							   } 
+							   return false;
+						   } 
+					    } 
+											
+						
+					</div>
+				</form>
+        	</div>
+		</div>	
+	</div> -->
+	
+	<script language="javascript" type="text/javascript">
+		function buttonClick(){
+		var url = document.getElementById("inputURL").value;
+		window.location = url;
+		}
+	</script>
+	
+	<div class="container ">
+		<div class="row ">
+			<form style="width: 60%; margin : 115px 40px 50px 200px;">
+				<div class="form-group-lg setting">
+					<input class="form-control" type="text" id="inputURL" name="inputURL" value=""  placeholder="Search Free Images">
+					<input type="button" class="btn btn-primary btn-lg" value="Go!" OnClick="buttonClick()"/>
+				</div>
+			</form>
+		</div>	
+	</div>
+
+	 <!-- <input style="width: 40%;height: 2.9em; margin : 115px 40px 50px 450px; " type="textarea"; id="inputURL" name="inputURL" value="" placeholder="Search Free High Resolution Photos"><br> -->
+	<!-- <input type="button" style= "margin : -93px 40px 250px 1057px; " class="btn btn-primary btn-lg" value="Go!" OnClick="buttonClick()"/> -->
+
+</div>
+
+
+
+
+
+
+<%- include("partials/footer") %>
+
